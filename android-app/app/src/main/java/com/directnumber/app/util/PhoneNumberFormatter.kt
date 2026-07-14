@@ -13,14 +13,21 @@ object PhoneNumberFormatter {
     fun sanitizeInput(raw: String): String {
         val builder = StringBuilder()
         var plusConsumed = false
+        var hasDigit = false
         for (char in raw) {
             when {
-                char == '+' && builder.isEmpty() && !plusConsumed -> {
+                char == '+' && !hasDigit && !plusConsumed -> {
                     builder.append(char)
                     plusConsumed = true
                 }
-                char.isDigit() -> builder.append(char)
-                char in ALLOWED_PUNCTUATION -> builder.append(char)
+                char.isDigit() -> {
+                    builder.append(char)
+                    hasDigit = true
+                }
+                // Punctuation is only kept once real content has started, so leading junk
+                // (e.g. a space before "+54..." pasted from "Tel: +54...") can't push the
+                // "+" check above past its "no content yet" guard and get itself dropped.
+                char in ALLOWED_PUNCTUATION && (hasDigit || plusConsumed) -> builder.append(char)
                 else -> Unit
             }
         }
