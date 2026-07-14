@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Direct Number</string>
+    <string name="app_tagline">Type the number, pick a country, then reach out or save it.</string>
+
+    <!-- Home screen -->
+    <string name="contact_name_label">Contact name (optional)</string>
+    <string name="contact_name_placeholder">e.g. Ahmad, or Damascus Restaurant</string>
+    <string name="country_label">Country</string>
+    <string name="all_countries_button">All countries</string>
+    <string name="phone_number_label">Phone number</string>
+    <string name="phone_number_placeholder">Enter phone number</string>
+    <string name="paste_button">Paste</string>
+    <string name="clear_button">Clear</string>
+    <string name="prepared_message_label">Prepared message (optional)</string>
+    <string name="prepared_message_placeholder">e.g. Hello, I\'m reaching out about…</string>
+
+    <!-- Preview card -->
+    <string name="preview_title">Preview</string>
+    <string name="preview_international">International number</string>
+    <string name="preview_e164">E.164 format</string>
+    <string name="preview_whatsapp_number">WhatsApp number</string>
+    <string name="preview_type">Number type</string>
+    <string name="type_mobile">Mobile</string>
+    <string name="type_landline">Landline</string>
+    <string name="type_unknown">Unknown</string>
+
+    <!-- Validation statuses -->
+    <string name="status_valid">Valid number</string>
+    <string name="status_incomplete">Incomplete number</string>
+    <string name="status_invalid">Invalid number</string>
+    <string name="status_needs_review">Needs review</string>
+
+    <!-- Region conflict -->
+    <string name="region_conflict_title">This number looks like it belongs to another country</string>
+    <string name="region_conflict_message">Do you want to use the detected country instead of the one you selected?</string>
+    <string name="region_conflict_use_detected">Use detected country</string>
+    <string name="region_conflict_keep_selected">Keep selected country</string>
+
+    <!-- Actions -->
+    <string name="action_open_whatsapp">Open in WhatsApp</string>
+    <string name="action_open_whatsapp_business">Open in WhatsApp Business</string>
+    <string name="action_save_contact">Save to Contacts</string>
+    <string name="action_share_vcard">Share contact card</string>
+    <string name="action_copy_share">Copy / Share</string>
+
+    <!-- WhatsApp picker -->
+    <string name="whatsapp_picker_title">Choose how to open the chat</string>
+    <string name="whatsapp_picker_regular">WhatsApp</string>
+    <string name="whatsapp_picker_business">WhatsApp Business</string>
+    <string name="whatsapp_picker_remember">Remember my choice</string>
+
+    <!-- App not installed -->
+    <string name="app_not_installed_title">%1$s isn\'t installed</string>
+    <string name="app_not_installed_body">Install it from the Play Store, or open the other WhatsApp app if you have it.</string>
+    <string name="app_not_installed_open_other">Open %1$s instead</string>
+    <string name="app_not_installed_play_store">Open Play Store</string>
+    <string name="app_not_installed_cancel">Cancel</string>
+    <string name="both_whatsapp_not_installed">Neither WhatsApp nor WhatsApp Business is installed on this device.</string>
+
+    <!-- Copy / share sheet -->
+    <string name="copy_sheet_title">Copy or share</string>
+    <string name="copy_international">Copy international number</string>
+    <string name="copy_whatsapp_number">Copy WhatsApp number</string>
+    <string name="copy_e164">Copy E.164 number</string>
+    <string name="share_as_text">Share number as text</string>
+    <string name="share_with_message">Share number with the prepared message</string>
+    <string name="snackbar_copied_international">International number copied</string>
+    <string name="snackbar_copied_whatsapp">WhatsApp number copied</string>
+    <string name="snackbar_copied_e164">E.164 number copied</string>
+
+    <!-- Errors -->
+    <string name="error_title">Something went wrong</string>
+    <string name="error_no_contacts_app">No app on this device can create a contact.</string>
+    <string name="error_vcard_failed">Could not create the contact card. Please try again.</string>
+    <string name="error_no_share_app">No app available to share this file.</string>
+    <string name="error_name_required_for_vcard">Add a contact name before sharing the card.</string>
+    <string name="default_contact_name">New Contact</string>
+
+    <!-- Country picker -->
+    <string name="country_picker_title">Choose a country</string>
+    <string name="country_picker_search_placeholder">Search by name or dial code</string>
+    <string name="country_picker_recent">Recently used</string>
+    <string name="country_picker_all">All countries</string>
+    <string name="country_picker_empty">No matching country</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_default_country">Default country</string>
+    <string name="settings_whatsapp_app">Default WhatsApp app</string>
+    <string name="settings_whatsapp_regular">WhatsApp</string>
+    <string name="settings_whatsapp_business">WhatsApp Business</string>
+    <string name="settings_whatsapp_ask">Ask every time</string>
+    <string name="settings_language">App language</string>
+    <string name="settings_language_system">System language</string>
+    <string name="settings_language_ar">العربية</string>
+    <string name="settings_language_es">Español</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_theme">Appearance</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_system">System default</string>
+    <string name="settings_remember_last_country">Remember last used country</string>
+    <string name="settings_show_recent_countries">Show recently used countries</string>
+    <string name="settings_keep_history">Keep recent numbers history</string>
+    <string name="settings_keep_history_desc">Off by default to protect your privacy. Numbers are never sent anywhere — this only controls whether recent numbers are remembered on this device.</string>
+    <string name="settings_clear_history">Clear recent numbers history</string>
+    <string name="settings_clear_history_done">History cleared</string>
+    <string name="settings_about">About the app</string>
+    <string name="settings_about_body">Direct Number formats phone numbers, opens WhatsApp chats, saves contacts and shares vCards — entirely on your device. No account, no server, no internet connection required.</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_privacy_body">All processing happens locally. Numbers are never uploaded anywhere. Contacts are created through the system Contacts app, which you confirm each time. Recent-numbers history is off by default and can be cleared at any time.</string>
+    <string name="settings_version">Version %1$s</string>
+
+    <!-- Empty state -->
+    <string name="empty_state_title">No preview yet</string>
+    <string name="empty_state_message">Enter a number and choose a country to see the international format</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_settings">Settings</string>
+    <string name="cd_paste">Paste from clipboard</string>
+    <string name="cd_clear">Clear phone number</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_search">Search</string>
+    <string name="cd_flag">%1$s flag</string>
+    <string name="cd_close">Close</string>
+</resources>

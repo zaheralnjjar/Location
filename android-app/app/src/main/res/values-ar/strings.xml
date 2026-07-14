@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">رقم مباشر</string>
+    <string name="app_tagline">اكتب الرقم، اختر الدولة، ثم تواصل أو احفظه</string>
+
+    <!-- الشاشة الرئيسية -->
+    <string name="contact_name_label">اسم جهة الاتصال (اختياري)</string>
+    <string name="contact_name_placeholder">مثال: أحمد، أو مطعم الشام</string>
+    <string name="country_label">الدولة</string>
+    <string name="all_countries_button">جميع الدول</string>
+    <string name="phone_number_label">رقم الهاتف</string>
+    <string name="phone_number_placeholder">أدخل رقم الهاتف</string>
+    <string name="paste_button">لصق</string>
+    <string name="clear_button">مسح</string>
+    <string name="prepared_message_label">رسالة جاهزة (اختياري)</string>
+    <string name="prepared_message_placeholder">مثال: السلام عليكم، أتواصل معكم بخصوص…</string>
+
+    <!-- بطاقة المعاينة -->
+    <string name="preview_title">المعاينة</string>
+    <string name="preview_international">الرقم الدولي</string>
+    <string name="preview_e164">صيغة E.164</string>
+    <string name="preview_whatsapp_number">رقم WhatsApp</string>
+    <string name="preview_type">نوع الرقم</string>
+    <string name="type_mobile">هاتف محمول</string>
+    <string name="type_landline">هاتف أرضي</string>
+    <string name="type_unknown">غير معروف</string>
+
+    <!-- حالات التحقق -->
+    <string name="status_valid">رقم صالح</string>
+    <string name="status_incomplete">رقم غير مكتمل</string>
+    <string name="status_invalid">رقم غير صالح</string>
+    <string name="status_needs_review">يحتاج إلى مراجعة</string>
+
+    <!-- تعارض الدولة -->
+    <string name="region_conflict_title">يبدو أن هذا الرقم تابع لدولة أخرى</string>
+    <string name="region_conflict_message">هل تريد استخدام الدولة المكتشفة بدلًا من الدولة التي اخترتها؟</string>
+    <string name="region_conflict_use_detected">استخدام الدولة المكتشفة</string>
+    <string name="region_conflict_keep_selected">الاستمرار بالدولة المختارة</string>
+
+    <!-- الإجراءات -->
+    <string name="action_open_whatsapp">فتح في WhatsApp</string>
+    <string name="action_open_whatsapp_business">فتح في WhatsApp Business</string>
+    <string name="action_save_contact">حفظ في جهات الاتصال</string>
+    <string name="action_share_vcard">مشاركة بطاقة الاتصال</string>
+    <string name="action_copy_share">نسخ / مشاركة</string>
+
+    <!-- اختيار تطبيق WhatsApp -->
+    <string name="whatsapp_picker_title">اختر طريقة فتح المحادثة</string>
+    <string name="whatsapp_picker_regular">WhatsApp</string>
+    <string name="whatsapp_picker_business">WhatsApp Business</string>
+    <string name="whatsapp_picker_remember">تذكّر اختياري</string>
+
+    <!-- تطبيق غير مثبت -->
+    <string name="app_not_installed_title">%1$s غير مثبت</string>
+    <string name="app_not_installed_body">يمكنك تثبيته من متجر Google Play، أو فتح تطبيق WhatsApp الآخر إن كان مثبتًا لديك.</string>
+    <string name="app_not_installed_open_other">فتح %1$s بدلًا من ذلك</string>
+    <string name="app_not_installed_play_store">فتح متجر Google Play</string>
+    <string name="app_not_installed_cancel">إلغاء</string>
+    <string name="both_whatsapp_not_installed">لا يوجد WhatsApp ولا WhatsApp Business مثبتين على هذا الجهاز.</string>
+
+    <!-- ورقة النسخ والمشاركة -->
+    <string name="copy_sheet_title">نسخ أو مشاركة</string>
+    <string name="copy_international">نسخ الرقم الدولي</string>
+    <string name="copy_whatsapp_number">نسخ رقم WhatsApp</string>
+    <string name="copy_e164">نسخ الرقم بصيغة E.164</string>
+    <string name="share_as_text">مشاركة الرقم كنص</string>
+    <string name="share_with_message">مشاركة الرقم مع الرسالة الجاهزة</string>
+    <string name="snackbar_copied_international">تم نسخ الرقم الدولي</string>
+    <string name="snackbar_copied_whatsapp">تم نسخ رقم WhatsApp</string>
+    <string name="snackbar_copied_e164">تم نسخ الرقم بصيغة E.164</string>
+
+    <!-- الأخطاء -->
+    <string name="error_title">حدث خطأ ما</string>
+    <string name="error_no_contacts_app">لا يوجد تطبيق على هذا الجهاز قادر على إنشاء جهة اتصال.</string>
+    <string name="error_vcard_failed">تعذّر إنشاء بطاقة جهة الاتصال. حاول مرة أخرى.</string>
+    <string name="error_no_share_app">لا يوجد تطبيق متاح لمشاركة هذا الملف.</string>
+    <string name="error_name_required_for_vcard">أضف اسم جهة اتصال قبل مشاركة البطاقة.</string>
+    <string name="default_contact_name">جهة اتصال جديدة</string>
+
+    <!-- اختيار الدولة -->
+    <string name="country_picker_title">اختر دولة</string>
+    <string name="country_picker_search_placeholder">ابحث بالاسم أو رمز الاتصال</string>
+    <string name="country_picker_recent">المستخدمة أخيرًا</string>
+    <string name="country_picker_all">جميع الدول</string>
+    <string name="country_picker_empty">لا توجد دولة مطابقة</string>
+
+    <!-- الإعدادات -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_default_country">الدولة الافتراضية</string>
+    <string name="settings_whatsapp_app">تطبيق WhatsApp الافتراضي</string>
+    <string name="settings_whatsapp_regular">WhatsApp</string>
+    <string name="settings_whatsapp_business">WhatsApp Business</string>
+    <string name="settings_whatsapp_ask">اسألني في كل مرة</string>
+    <string name="settings_language">لغة التطبيق</string>
+    <string name="settings_language_system">لغة النظام</string>
+    <string name="settings_language_ar">العربية</string>
+    <string name="settings_language_es">الإسبانية</string>
+    <string name="settings_language_en">الإنجليزية</string>
+    <string name="settings_theme">المظهر</string>
+    <string name="settings_theme_light">فاتح</string>
+    <string name="settings_theme_dark">داكن</string>
+    <string name="settings_theme_system">حسب النظام</string>
+    <string name="settings_remember_last_country">تذكّر آخر دولة مستخدمة</string>
+    <string name="settings_show_recent_countries">إظهار الدول الأخيرة</string>
+    <string name="settings_keep_history">الاحتفاظ بسجل الأرقام الأخيرة</string>
+    <string name="settings_keep_history_desc">مغلق افتراضيًا حفاظًا على خصوصيتك. لا تُرسل الأرقام إلى أي مكان أبدًا؛ هذا الخيار يتحكم فقط بحفظها على هذا الجهاز.</string>
+    <string name="settings_clear_history">مسح سجل الأرقام الأخيرة</string>
+    <string name="settings_clear_history_done">تم مسح السجل</string>
+    <string name="settings_about">عن التطبيق</string>
+    <string name="settings_about_body">يتيح لك «رقم مباشر» تنسيق أرقام الهواتف، وفتح محادثات WhatsApp، وحفظ جهات الاتصال، ومشاركة بطاقات VCF، وكل ذلك من دون اتصال بالإنترنت أو حساب مستخدم.</string>
+    <string name="settings_privacy">الخصوصية</string>
+    <string name="settings_privacy_body">تتم جميع العمليات محليًا على جهازك. لا تُرسل الأرقام إلى أي خادم. يتم إنشاء جهات الاتصال عبر تطبيق جهات الاتصال في النظام، وتؤكد ذلك بنفسك في كل مرة. سجل الأرقام الأخيرة مغلق افتراضيًا ويمكن مسحه في أي وقت.</string>
+    <string name="settings_version">الإصدار %1$s</string>
+
+    <!-- الحالة الفارغة -->
+    <string name="empty_state_title">لا توجد معاينة بعد</string>
+    <string name="empty_state_message">أدخل رقمًا واختر دولة لرؤية الصيغة الدولية</string>
+
+    <!-- أوصاف إمكانية الوصول -->
+    <string name="cd_settings">الإعدادات</string>
+    <string name="cd_paste">لصق من الحافظة</string>
+    <string name="cd_clear">مسح رقم الهاتف</string>
+    <string name="cd_back">رجوع</string>
+    <string name="cd_search">بحث</string>
+    <string name="cd_flag">علم %1$s</string>
+    <string name="cd_close">إغلاق</string>
+</resources>
