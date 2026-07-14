@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Número Directo</string>
+    <string name="app_tagline">Escribe el número, elige el país y luego contacta o guárdalo.</string>
+
+    <!-- Pantalla principal -->
+    <string name="contact_name_label">Nombre del contacto (opcional)</string>
+    <string name="contact_name_placeholder">Ej.: Ahmad, o Restaurante Al Sham</string>
+    <string name="country_label">País</string>
+    <string name="all_countries_button">Todos los países</string>
+    <string name="phone_number_label">Número de teléfono</string>
+    <string name="phone_number_placeholder">Ingresa el número de teléfono</string>
+    <string name="paste_button">Pegar</string>
+    <string name="clear_button">Borrar</string>
+    <string name="prepared_message_label">Mensaje preparado (opcional)</string>
+    <string name="prepared_message_placeholder">Ej.: Hola, te escribo por…</string>
+
+    <!-- Tarjeta de vista previa -->
+    <string name="preview_title">Vista previa</string>
+    <string name="preview_international">Número internacional</string>
+    <string name="preview_e164">Formato E.164</string>
+    <string name="preview_whatsapp_number">Número de WhatsApp</string>
+    <string name="preview_type">Tipo de número</string>
+    <string name="type_mobile">Móvil</string>
+    <string name="type_landline">Fijo</string>
+    <string name="type_unknown">Desconocido</string>
+
+    <!-- Estados de validación -->
+    <string name="status_valid">Número válido</string>
+    <string name="status_incomplete">Número incompleto</string>
+    <string name="status_invalid">Número no válido</string>
+    <string name="status_needs_review">Necesita revisión</string>
+
+    <!-- Conflicto de país -->
+    <string name="region_conflict_title">Este número parece pertenecer a otro país</string>
+    <string name="region_conflict_message">¿Quieres usar el país detectado en lugar del que seleccionaste?</string>
+    <string name="region_conflict_use_detected">Usar país detectado</string>
+    <string name="region_conflict_keep_selected">Mantener país seleccionado</string>
+
+    <!-- Acciones -->
+    <string name="action_open_whatsapp">Abrir en WhatsApp</string>
+    <string name="action_open_whatsapp_business">Abrir en WhatsApp Business</string>
+    <string name="action_save_contact">Guardar en Contactos</string>
+    <string name="action_share_vcard">Compartir tarjeta de contacto</string>
+    <string name="action_copy_share">Copiar / Compartir</string>
+
+    <!-- Selector de WhatsApp -->
+    <string name="whatsapp_picker_title">Elige cómo abrir el chat</string>
+    <string name="whatsapp_picker_regular">WhatsApp</string>
+    <string name="whatsapp_picker_business">WhatsApp Business</string>
+    <string name="whatsapp_picker_remember">Recordar mi elección</string>
+
+    <!-- App no instalada -->
+    <string name="app_not_installed_title">%1$s no está instalado</string>
+    <string name="app_not_installed_body">Puedes instalarlo desde Play Store, o abrir la otra app de WhatsApp si la tienes instalada.</string>
+    <string name="app_not_installed_open_other">Abrir %1$s en su lugar</string>
+    <string name="app_not_installed_play_store">Abrir Play Store</string>
+    <string name="app_not_installed_cancel">Cancelar</string>
+    <string name="both_whatsapp_not_installed">Ni WhatsApp ni WhatsApp Business están instalados en este dispositivo.</string>
+
+    <!-- Hoja de copiar/compartir -->
+    <string name="copy_sheet_title">Copiar o compartir</string>
+    <string name="copy_international">Copiar número internacional</string>
+    <string name="copy_whatsapp_number">Copiar número de WhatsApp</string>
+    <string name="copy_e164">Copiar número en formato E.164</string>
+    <string name="share_as_text">Compartir número como texto</string>
+    <string name="share_with_message">Compartir número con el mensaje preparado</string>
+    <string name="snackbar_copied_international">Número internacional copiado</string>
+    <string name="snackbar_copied_whatsapp">Número de WhatsApp copiado</string>
+    <string name="snackbar_copied_e164">Número en formato E.164 copiado</string>
+
+    <!-- Errores -->
+    <string name="error_title">Algo salió mal</string>
+    <string name="error_no_contacts_app">Ninguna app en este dispositivo puede crear un contacto.</string>
+    <string name="error_vcard_failed">No se pudo crear la tarjeta de contacto. Inténtalo de nuevo.</string>
+    <string name="error_no_share_app">No hay ninguna app disponible para compartir este archivo.</string>
+    <string name="error_name_required_for_vcard">Agrega un nombre de contacto antes de compartir la tarjeta.</string>
+    <string name="default_contact_name">Contacto nuevo</string>
+
+    <!-- Selector de país -->
+    <string name="country_picker_title">Elige un país</string>
+    <string name="country_picker_search_placeholder">Busca por nombre o código de marcación</string>
+    <string name="country_picker_recent">Usados recientemente</string>
+    <string name="country_picker_all">Todos los países</string>
+    <string name="country_picker_empty">No hay ningún país coincidente</string>
+
+    <!-- Ajustes -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_default_country">País predeterminado</string>
+    <string name="settings_whatsapp_app">App de WhatsApp predeterminada</string>
+    <string name="settings_whatsapp_regular">WhatsApp</string>
+    <string name="settings_whatsapp_business">WhatsApp Business</string>
+    <string name="settings_whatsapp_ask">Preguntar cada vez</string>
+    <string name="settings_language">Idioma de la app</string>
+    <string name="settings_language_system">Idioma del sistema</string>
+    <string name="settings_language_ar">Árabe</string>
+    <string name="settings_language_es">Español</string>
+    <string name="settings_language_en">Inglés</string>
+    <string name="settings_theme">Apariencia</string>
+    <string name="settings_theme_light">Claro</string>
+    <string name="settings_theme_dark">Oscuro</string>
+    <string name="settings_theme_system">Predeterminado del sistema</string>
+    <string name="settings_remember_last_country">Recordar el último país usado</string>
+    <string name="settings_show_recent_countries">Mostrar países usados recientemente</string>
+    <string name="settings_keep_history">Conservar historial de números recientes</string>
+    <string name="settings_keep_history_desc">Desactivado de forma predeterminada para proteger tu privacidad. Los números nunca se envían a ningún lugar; esta opción solo controla si se recuerdan en este dispositivo.</string>
+    <string name="settings_clear_history">Borrar historial de números recientes</string>
+    <string name="settings_clear_history_done">Historial borrado</string>
+    <string name="settings_about">Acerca de la app</string>
+    <string name="settings_about_body">Número Directo da formato a números de teléfono, abre chats de WhatsApp, guarda contactos y comparte tarjetas vCard, todo directamente en tu dispositivo. Sin cuenta, sin servidor, sin necesidad de conexión a internet.</string>
+    <string name="settings_privacy">Privacidad</string>
+    <string name="settings_privacy_body">Todo el procesamiento ocurre localmente. Los números nunca se suben a ningún lugar. Los contactos se crean a través de la app de Contactos del sistema, que confirmas cada vez. El historial de números recientes está desactivado de forma predeterminada y puede borrarse en cualquier momento.</string>
+    <string name="settings_version">Versión %1$s</string>
+
+    <!-- Estado vacío -->
+    <string name="empty_state_title">Aún no hay vista previa</string>
+    <string name="empty_state_message">Ingresa un número y elige un país para ver el formato internacional</string>
+
+    <!-- Descripciones de accesibilidad -->
+    <string name="cd_settings">Ajustes</string>
+    <string name="cd_paste">Pegar desde el portapapeles</string>
+    <string name="cd_clear">Borrar número de teléfono</string>
+    <string name="cd_back">Atrás</string>
+    <string name="cd_search">Buscar</string>
+    <string name="cd_flag">Bandera de %1$s</string>
+    <string name="cd_close">Cerrar</string>
+</resources>
